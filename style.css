@@ -485,6 +485,33 @@ section {
     line-height: 26px;
     /* 130% */
 }
+.icon_fast i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ad343e url(../img/icons/clock.svg) center no-repeat;
+}
+.fast_icon i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ad343e url(../img/icons/clock.svg) center no-repeat;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.fast_icon{
+    display: flex;
+}
+
+.fast_icon:nth-child(2) i{
+  background-image: url();
+  margin-bottom: 10px;
+}
+.fast_icon:last-child i{
+  background-image: url();
+}
 /* order */
 .order{
     background: #F9F9F7;
@@ -527,7 +554,6 @@ gap: 24px;
 .our .sec_tit {
     margin-bottom: 64px;
 }
-
 .our_card {
     width: calc((100% - 48px) / 3);
     border-radius: 12px;
