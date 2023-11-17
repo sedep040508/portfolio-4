@@ -489,17 +489,23 @@ section {
     /* 130% */
 }
 /* order */
+.order{
+    background: #F9F9F7;
+}
 .order_left{
     width: 300px;
 }
 .order_right{
     width: calc(100%-380px);
+    justify-content: center;
 }
 .order_card{
     width: 220px;
+    margin: 0 12px 40px;
+    background: #fff;
 }
 .order_card__big{
-    width: 226px;
+    width: 260px;
 }
 /* our */
 .our .sec_tit {
