@@ -492,6 +492,9 @@ section {
 .order_left{
     width: 300px;
 }
+.order_right{
+    width: calc(100%-380px);
+}
 /* our */
 .our .sec_tit {
     margin-bottom: 64px;
