@@ -318,7 +318,16 @@ section {
     bottom: 0;
     right: 0;
 }
+.browse_link{
+    color:#AD343E;
+    display: flex;
+    height: 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
 
+}
 .provide_right {
     width: calc(50% - 45px);
 }
