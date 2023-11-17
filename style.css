@@ -496,14 +496,33 @@ section {
     width: calc(100%-380px);
     justify-content: center;
 }
-.order_card{
+.order_right{
     width: 220px;
     margin: 0 12px 40px;
     background: #fff;
+    width: 220.909px;
+    height: 90px;
+    
 }
-.order_card__big{
-    width: 260px;
+.card1{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 24px;
 }
+.card2{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 24px;
+}
+.card3{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 24px;
+}
+.
 /* our */
 .our .sec_tit {
     margin-bottom: 64px;
