@@ -269,7 +269,7 @@ section {
 }
 
 .browse_card__1 .browse_ic {
-    background: url(/img/about/tea\ 1\ \(2\).svg)center no-repeat;
+    background: url(/img/about/tea\ 1\ \(2\).svg)
 }
 
 .browse_card__2 .browse_ic {
@@ -532,6 +532,12 @@ section {
 }
 
 /* blog */
+.blog{
+    width: 1600px;
+    height: 1117px;
+    flex-shrink: 0;
+    background: var(--neutral-02, #F9F9F7);
+}
 .blog_top {
     align-items: center;
     margin-bottom: 64px;
@@ -551,12 +557,41 @@ section {
     width: calc(50% - 12px);
     
 }
-.blog_img{
-    display: inline-block;
-    border-radius: 12px;
+.blog_imgg{
+    width: 636px;
+    height: 456px;
+    flex-shrink: 0;
+    /* display: inline-block;
+    border-radius: 12px; */
 }
-
-footer {
+.blog_cardd{
+    border-radius: 12px;
+    border: 1px solid  #F9F9F7;
+    background: #FFF;
+    box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+    width: 636px;
+    height: 732px;
+    flex-shrink: 0;
+}
+.blog_cardd:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.blog_card{
+    width: 306px;
+    height: 354px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #F9F9F7;
+    background: #FFF;
+    box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+}
+.blog_card:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.blog_info{
+    margin: 10px 20px 20px 20px;
+}
+footer{
     padding-top: 120px;
     background: #474747;
 }
@@ -625,7 +660,7 @@ footer {
 }
 
 .footer_img:hover img {
-    transform: scale(1.2)
+    transform: scale(1.2);
 }
 
 .footer_img::before {
@@ -1014,9 +1049,6 @@ svg {
     width: 596px;
 
 }
-
-
-
 .first_img {
     width: 48px;
     height: 48px;
