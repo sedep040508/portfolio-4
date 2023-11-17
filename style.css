@@ -488,7 +488,10 @@ section {
     line-height: 26px;
     /* 130% */
 }
-
+/* order */
+.order_left{
+    width: 300px;
+}
 /* our */
 .our .sec_tit {
     margin-bottom: 64px;
