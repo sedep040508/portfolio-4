@@ -523,7 +523,12 @@ section {
     background: var(--neutral-02, #f9f9f7);
     padding: 45px 35px 35px;
 }
-
+.order_right{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+}
 .our_tit {
     color: #ad343e;
     font-size: 24px;
