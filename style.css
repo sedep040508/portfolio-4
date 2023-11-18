@@ -523,11 +523,18 @@ section {
     background: var(--neutral-02, #f9f9f7);
     padding: 45px 35px 35px;
 }
+/* order */
 .order_right{
     display: flex;
 flex-direction: column;
 align-items: center;
 gap: 40px;
+}
+.order_card{
+    border-radius: 12px;
+    border: 1px solid  #F9F9F7;
+    background: #FFF;
+    box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
 }
 .our_tit {
     color: #ad343e;
