@@ -362,7 +362,6 @@ section {
     color: #fff;
     width: 411px;
 }
-
 /* offer */
 .offer .sec_sub-tit {
     max-width: 675px;
@@ -884,10 +883,12 @@ gap: 40px;
 
 
 
-.form_input-ink {
+.form_input-ink{
     width: 100%;
 }
-
+.form_input-inkx{
+    width: 100%;
+}
 .input {
     line-height: 56px;
     font-size: 16px;
@@ -1156,11 +1157,60 @@ svg {
     gap: 87px;
     margin-left: 20px;
 }
-
+.header{
+    background: var(--neutral-02, #F9F9F7);
+}
 .bottom_first {
     width: 366px;
 }
-
+/* articles */
+.articles{
+    width: 1600px;
+    height: 1626px;
+    flex-shrink: 0;
+    background: var(--neutral-02, #F9F9F7);
+}
+.art_tit{
+    color: #2C2F24;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px; /* 96% */
+    margin-bottom: 24px;
+}
+.art_txt{
+    width: 632px;
+    color: #414536;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 350px;
+    margin-bottom: 72px;
+}
+.blog_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.card{
+    width: 306px;
+height: 340px;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid #F9F9F7;
+background: #FFF;
+box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+margin-bottom: 32px;
+}
+.card_text{
+    margin: 25px 25px;
+}
 /* little */
 .right_img {
     flex-shrink: 0;
@@ -1359,19 +1409,15 @@ svg {
     /* 130% */
     margin-bottom: 24px;
 }
-
 .info {
     display: inline-flex;
     align-items: flex-start;
     gap: 90px;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 .frame_txt {
-    color: var(--neutral-07, #2C2F24);
-
-    /* Body/18px/Regular */
-    font-family: DM Sans;
+    color: #2C2F24;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1390,7 +1436,6 @@ svg {
     align-items: center;
     gap: 10px;
 }
-
 .inputx {
     color: var(--neutral-05, #737865);
     text-align: center;
@@ -1425,12 +1470,8 @@ svg {
     align-items: flex-start;
     gap: 24px;
 }
-
 .frame_title {
     color: #AD343E;
-
-    /* Headline/H3 */
-    font-family: DM Sans;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
