@@ -512,42 +512,7 @@ section {
   background-image: url();
 }
 /* order */
-.order{
-    background: #F9F9F7;
-}
-.order_left{
-    width: 300px;
-}
-.order_right{
-    width: calc(100%-380px);
-    justify-content: center;
-}
-.order_right{
-    width: 220px;
-    margin: 0 12px 40px;
-    background: #fff;
-    width: 220.909px;
-    height: 90px;
-}
 
-.card1{
-    display: flex;
-justify-content: center;
-align-items: center;
-gap: 24px;
-}
-.card2{
-    display: flex;
-justify-content: center;
-align-items: center;
-gap: 24px;
-}
-.card3{
-    display: flex;
-justify-content: center;
-align-items: center;
-gap: 24px;
-}
 /* our */
 .our .sec_tit {
     margin-bottom: 64px;
