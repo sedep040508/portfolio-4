@@ -521,27 +521,24 @@ section {
     background: var(--neutral-02, #F9F9F7);
 }
 .order_left{
-    width: 300px;
+    width: 346px;
 }
 .order_right{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
-
 }
-.order_card{
-    width: 220px;
-    background-color: #fff;
-    width: 220.909px;
+.item{
+    width: 260px;
     height: 90px;
-    border-radius: 15px;
-}
-.order_cards{
-    display: flex;
-flex-direction: column;
-align-items: center;
-gap: 40px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid var(--neutral-02, #F9F9F7);
+    background: var(--neutral-01, #FFF);
+    /* 1 */
+    box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+    padding: 30px;
 }
 .card1{
     display: flex;
@@ -560,9 +557,6 @@ gap: 24px;
 justify-content: center;
 align-items: center;
 gap: 24px;
-}
-.order_card__big{
-    width: 226px;
 }
 .sec_sub-tit{
     width: 346px;
