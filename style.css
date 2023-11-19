@@ -536,7 +536,6 @@ section {
     border-radius: 12px;
     border: 1px solid var(--neutral-02, #F9F9F7);
     background: var(--neutral-01, #FFF);
-    /* 1 */
     box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
     padding: 30px;
 }
