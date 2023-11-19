@@ -909,7 +909,9 @@ gap: 40px;
     line-height: 56px;
     font-size: 16px;
 }
-
+.form_input-ink{
+    margin-bottom: 24px;
+}
 .form_input {
     width: calc(50% - 12px);
 }
