@@ -485,21 +485,13 @@ section {
     line-height: 26px;
     /* 130% */
 }
-.icon_fast i {
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: #ad343e url(../img/icons/clock.svg) center no-repeat;
-}
 .fast_icon i {
     display: block;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #ad343e url(../img/icons/clock.svg) center no-repeat;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    background: #ad343e url(/img/Rectangle\ 406.svg) center no-repeat;
+    z-index: 5;
 }
 .fast_icon{
     display: flex;
@@ -746,10 +738,8 @@ gap: 20px;
   .logo_tit{
     color: #FFF;
   font-family: "Playfair Display";
-  font-size: 32.67px;
   font-style: italic;
   font-weight: 600;
-  line-height: 29.333px; /* 89.787% */
   letter-spacing: -0.4px;
   margin-right: 150px;
   margin-top: 20px;
@@ -772,7 +762,7 @@ gap: 20px;
     color: #DBDFD0;
   }
   .footer_icons{
-    padding-right: 150px;
+    padding-right: 200px;
   }
   .footer_img {
     width: calc((100% - 15px) / 2);
@@ -808,7 +798,6 @@ flex-direction: column;
 align-items: flex-start;
 gap: 40px;
   }
-
 
 /* feel */
 .feel_top {
