@@ -1494,6 +1494,9 @@ margin-bottom: 32px;
     align-items: center;
     gap: 10px;
 }
+.form_input__big{
+    width: 100%;
+}
 .inputx {
     color: var(--neutral-05, #737865);
     text-align: center;
