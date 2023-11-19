@@ -915,7 +915,6 @@ gap: 40px;
 .form_input {
     width: calc(50% - 12px);
 }
-
 .form_input__big {
     max-width: 100%;
     margin-bottom: 24px;
