@@ -364,7 +364,7 @@ section {
 }
 /* offer */
 .offer .sec_sub-tit {
-    max-width: 675px;
+    width: 675px;
     margin-bottom: 57px;
 }
 
@@ -524,17 +524,68 @@ section {
     padding: 45px 35px 35px;
 }
 /* order */
+.order{
+    background: var(--neutral-02, #F9F9F7);
+}
+.order_left{
+    width: 300px;
+}
 .order_right{
+    width: calc(100% - 380px);
+}
+.order_card{
+    width: 220px;
+    background-color: #fff;
+    width: 220.909px;
+    height: 90px;
+    border-radius: 15px;
+}
+.order_cards{
     display: flex;
 flex-direction: column;
 align-items: center;
 gap: 40px;
 }
-.order_card{
-    border-radius: 12px;
-    border: 1px solid  #F9F9F7;
-    background: #FFF;
-    box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+.cards1{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 24px;
+}
+.cards2{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 24px;
+}
+.cards3{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 24px;
+}
+.order_card__big{
+    width: 226px;
+}
+.sec_sub-tit{
+    width: 346px;
+    color:  #2C2F24;
+    font-family: Playfair Display;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60.5px; /* 110% */
+    margin-bottom: 20px;
+}
+.order_txt{
+    width: 346px;
+    color: #414536;
+/* Body/16px/Regular */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
 }
 .our_tit {
     color: #ad343e;
@@ -847,7 +898,6 @@ gap: 40px;
     margin: 0 auto;
     padding: 43px 50px 50px;
 }
-
 .form_txt {
     color: #2C2F24;
     font-weight: 700;
@@ -856,10 +906,7 @@ gap: 40px;
     margin-bottom: 8px;
     display: block;
 }
-
-
-
-.form_input-ink{
+.form_input-in{
     width: 100%;
 }
 .form_input-inkx{
@@ -876,6 +923,7 @@ gap: 40px;
 
 .form_input__big {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .form-wrap {
@@ -888,7 +936,37 @@ gap: 40px;
 .map {
     padding-top: 0;
 }
-
+/* secrets */
+.secret_text{
+    
+}
+/* .secrets{
+    width: 1600px;
+height: 3028px;
+flex-shrink: 0;
+} */
+.secret_tit{
+    margin-left: 150px;
+    width: 1030px;
+    color: #2C2F24;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60.5px;
+    margin-bottom: 62px;
+}
+.secret_img{
+    width: 100%;
+    margin-bottom: 64px;
+}
+.text_tit{
+    margin-bottom: 20px;
+}
+.text_txt{
+    margin-bottom: 20px;
+}
 /* feel */
 .feel_top {
     background: url(../img/feel_bg.jpg) center no-repeat;
@@ -1176,6 +1254,7 @@ svg {
 }
 .card{
     width: 306px;
+    overflow: hidden;
 height: 340px;
 flex-shrink: 0;
 border-radius: 12px;
@@ -1183,6 +1262,9 @@ border: 1px solid #F9F9F7;
 background: #FFF;
 box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
 margin-bottom: 32px;
+}
+.articlescard:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 .card_text{
     margin: 25px 25px;
