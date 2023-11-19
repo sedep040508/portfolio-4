@@ -543,19 +543,19 @@ flex-direction: column;
 align-items: center;
 gap: 40px;
 }
-.cards1{
+.card1{
     display: flex;
 justify-content: center;
 align-items: center;
 gap: 24px;
 }
-.cards2{
+.card2{
     display: flex;
 justify-content: center;
 align-items: center;
 gap: 24px;
 }
-.cards3{
+.card3{
     display: flex;
 justify-content: center;
 align-items: center;
