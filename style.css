@@ -917,8 +917,8 @@ gap: 40px;
 }
 
 .form_input__big {
-    width: 100%;
-    margin-bottom: 20px;
+    max-width: 100%;
+    margin-bottom: 24px;
 }
 
 .form-wrap {
