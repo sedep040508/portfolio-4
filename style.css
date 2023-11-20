@@ -460,49 +460,17 @@ section {
 .fast_icon {
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-
-.fast_icon i {
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: #ad343e url() center no-repeat;
-}
-
-/* .fast_icon:nth-child(2) i{
-  background-image: url();
-}
-.fast_icon:last-child i{
-  background-image: url();
-} */
 .fast_icon span {
     padding-left: 20px;
     color: #2c2f24;
     font-size: 20px;
     font-weight: 500;
     line-height: 26px;
-    /* 130% */
-}
-.fast_icon i {
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: #ad343e url(/img/Rectangle\ 406.svg) center no-repeat;
-    z-index: 5;
 }
 .fast_icon{
     display: flex;
-}
-
-.fast_icon:nth-child(2) i{
-  background-image: url();
-  margin-bottom: 10px;
-}
-.fast_icon:last-child i{
-  background-image: url();
 }
 /* order */
 
