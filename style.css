@@ -817,7 +817,7 @@ gap: 40px;
 }
 
 .count {
-    margin: 100px 0 500px;
+    margin: 100px 0 50px;
 }
 
 
@@ -960,10 +960,6 @@ flex-shrink: 0;
     margin-left: 5px;
     border-width: 12.5px 0 12.5px 20px;
     border-color: transparent transparent transparent #AD343E;
-}
-
-.count {
-    margin: 100px 0 500px;
 }
 
 
