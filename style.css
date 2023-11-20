@@ -1502,6 +1502,6 @@ margin-bottom: 32px;
     letter-spacing: -0.72px;
 }
 
-.js-btn.active:hover{
+.js-btn.active{
     background: blue;
 }
