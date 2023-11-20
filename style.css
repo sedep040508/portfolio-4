@@ -857,7 +857,6 @@ gap: 40px;
     color: #2C2F24;
     font-weight: 700;
     line-height: 24px;
-    /* 150% */
     margin-bottom: 8px;
     display: block;
 }
@@ -866,6 +865,9 @@ gap: 40px;
 }
 .form_input-inkx{
     width: 100%;
+}
+.form_txtx{
+    
 }
 .input {
     line-height: 56px;
@@ -1445,6 +1447,16 @@ margin-bottom: 32px;
 .form_input-in {
     border-radius: 72px;
     border: 1px solid var(--neutral-03, #DBDFD0);
+    background: var(--neutral-01, #FFF);
+    display: flex;
+    width: 350px;
+    height: 60px;
+    padding: 0px 24px;
+    align-items: center;
+    gap: 10px;
+}
+.form_input-inn{
+    border-radius: 72px;
     background: var(--neutral-01, #FFF);
     display: flex;
     width: 350px;
