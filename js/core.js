@@ -1,2 +1,2 @@
-let name=prompt("enter your name")
-alert("hello"+name)
+let name=prompt("what your are you")
+alert("i was in"+name)
