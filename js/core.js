@@ -4,5 +4,9 @@ document.querySelector('.js-btn').addEventListener('click',function(){
     document.querySelector('.js-btn').textContent="tejkdnfkj"
     var newhr = document.createElement('<p>Paragraph</p>');
     document.querySelector('.js-btn').insertAdjacentElement('afterend')
-    // document.querySelector('.js-btn').insertAdjacentElement('afterend',"p")
+    const div = document.createElement('div');
+    const header = document.createElement('h2');
+    header.innerText = ''
+    console.log(div)
+    console.log(header)
 })
