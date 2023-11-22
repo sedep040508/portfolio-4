@@ -6,7 +6,9 @@ document.querySelector('.js-btn').addEventListener('click',function(){
     document.querySelector('.js-btn').insertAdjacentElement('afterend')
     const div = document.createElement('div');
     const header = document.createElement('h2');
-    header.innerText = 'core.js'
+    header.innerText = 'base.js'
+    div.appendChild(header)
+    document.body.appendChild(div)
     console.log(div)
     console.log(header)
 })
