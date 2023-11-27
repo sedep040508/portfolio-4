@@ -2,12 +2,9 @@
 	img{
 	 width: 100%;
 	}
-	.browse_txt{
+	/* .provide_info{
 		widows: 100%;
-	}
-	.provide_info{
-		widows: 100%;
-	}
+	} */
  }
  @media  screen and (max-width: 770px){
 	 .menu{
@@ -59,4 +56,31 @@
 	 .main_img_mob{
 		 display: block;
 	 }    
+ }
+ @media  screen and (max-width: 800px){
+	h1{
+		font-size: 50px;
+	}
+ }
+ @media  screen and (max-width: 800px){
+	.btn{
+		display: none;
+	}
+ }
+ @media  screen and (max-width: 800px){
+	.browse_txt{
+		width: 125px;
+	}
+	.browse_link{
+		width: 125px;
+	}
+	.sec_sub-tit{
+		font-size: 42px;
+	}
+	.offer_txt{
+		width: 140px;
+	}
+	.provide_img{
+		width: 466px;
+	}
  }
